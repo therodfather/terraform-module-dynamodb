@@ -1,0 +1,16 @@
+# Local terraform directories
+**/.terraform/*
+**/terraform.d/*
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Plan files
+*.plan
+
+# Locally cloned module directories
+**/modules/*
+
+# Backend config files
+*.backend.tf
